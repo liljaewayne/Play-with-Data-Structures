@@ -99,7 +99,7 @@ public class LoopQueue<E> implements Queue<E> {
                 res.append(", ");
         }
         res.append("] tail");
-        res.append("\t " + Arrays.toString(data));
+        res.append("\t 原始数组: " + Arrays.toString(data));
         return res.toString();
     }
 
